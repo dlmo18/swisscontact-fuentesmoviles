@@ -29,6 +29,6 @@ UserInterfaceState.xcuserstate
 /wp-includes/
 
 *.wpress
-*.php
+/*.php
 .htaccess
 !wp-config.php
