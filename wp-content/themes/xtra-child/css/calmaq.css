@@ -1,0 +1,251 @@
+
+.calmaq-intro {
+  margin-bottom: 5rem; }
+  .calmaq-intro h2 {
+    color: #0a418b;
+    font-size: 2.2rem; }
+  .calmaq-intro h3 {
+    color: #0a418b;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 2rem; }
+  .calmaq-intro h4 {
+    color: #0a418b;
+    font-weight: bold;
+    font-size: 1rem; }
+  .calmaq-intro .info {
+    padding-top: 3rem; }
+  .calmaq-intro .form .fas {
+    color: #d0021b; }
+
+.table-scroll {
+  width: 100%;
+  overflow-x: auto;
+  font-size: .8rem;
+  line-height: 1rem; }
+
+.calmaq-grid {
+  display: none;
+  margin-bottom: 5rem; }
+  .calmaq-grid h3 {
+    color: #0a418b;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: bold; }
+  .calmaq-grid .table th {
+    font-weight: bold;
+    font-size: .8rem;
+    line-height: 1rem; }
+  .calmaq-grid .table td {
+    font-size: .8rem; }
+  .calmaq-grid .record {
+    cursor: pointer; }
+
+.calmaq-result {
+  display: none;
+  margin-bottom: 5rem; }
+  .calmaq-result h3 {
+    color: #0a418b;
+    font-size: 1.8rem;
+    text-align: left;
+    margin-bottom: 2rem;
+    font-weight: bold; }
+    .calmaq-result h3 i {
+      color: #d0021b; }
+
+#modalRecord .form-group label,
+#modalRecord .form-group span {
+  font-size: .8rem;
+  margin-bottom: 0; }
+
+.page-grid {
+  background: #F2F6FA;
+  padding: 3rem 0; }
+  .page-grid h3 {
+    color: #0a418b;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: bold; }
+  .page-grid .link {
+    border: 0;
+    padding: 1rem;
+    background: none;
+    transition-delay: .2s;
+    display: block;
+    width: 100%; }
+    .page-grid .link:hover i {
+      background: #fff;
+      color: #26aaf6; }
+    .page-grid .link:hover label {
+      color: #26aaf6; }
+    .page-grid .link i {
+      background: #fff;
+      display: block;
+      font-size: 4rem;
+      margin-bottom: 1rem;
+      border: 1px solid #0a418b;
+      border-radius: .5rem;
+      padding: 1.5rem 0;
+      color: #0a418b;
+      text-align: center; }
+    .page-grid .link label {
+      display: block;
+      font-weight: bold;
+      color: #0a418b; }
+  .page-grid .details {
+    display: none; }
+    .page-grid .details h4 {
+      color: #0F4389;
+      font-weight: bold;
+      margin-bottom: 0; }
+      .page-grid .details h4 i {
+        color: #d0021b; }
+    .page-grid .details .text {
+      margin-left: 2rem; }
+
+
+.page-hemaq .table {
+  border: 0;
+  margin: 0;
+}
+
+.page-hemaq table td {
+  border: 0;
+  border-left: 0;
+  border-right: 0;
+  color: #fff;
+}
+.page-hemaq table td a {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #fff;
+}
+.page-hemaq table td a:hover {
+  text-decoration: underline;
+} 
+
+.page-hemaq .chart-block {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 2rem;
+}
+
+.wp-block-button__link {
+  background: none;
+  font-weight: bold;
+}
+
+
+.hemaq-readme {
+  background: #004fb9;
+  color: #fff;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.hemaq-readme .wp-block-image img {
+  border: 0;
+  background: transparent;
+}
+
+.hemaq-tabs {
+  background: steelblue;
+  color: #fff;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.hemaq-vars {
+  background: #999;
+  color: #fff;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.page-content .nav-tabs li {
+  list-style: none;
+}
+
+.page-content .nav-tabs .nav-link.active:not(.dropdown-toggle) {
+  background: #26aaf6;
+  color: #fff;
+}
+
+.page-content .nav-tabs .nav-link.active.dropdown-toggle {
+  background: #0271AEAA;
+  color: #fff;
+}
+
+.page-hemaq .tab-pane {
+  padding: 0 0 1rem;
+}
+
+.page-hemaq .tab-pane h3 {
+  background: #004fb9;
+  padding: .25rem 1rem;
+  color: #fff;
+  margin: 0;
+  font-size: 1.2rem;
+  margin-bottom: .5rem;
+}
+
+.page-hemaq .tab-pane h4 {
+  background: #004fb9aa;
+  padding: .25rem 1rem;
+  color: #fff;
+  margin: 0;
+  font-size: 1.1rem;
+  margin-bottom: .5rem;
+}
+
+.page-hemaq .tab-pane h5 {
+  padding: .25rem 1rem;
+  font-weight: bold;
+  margin: 2rem 0 0;
+  font-size: 1.1rem;
+  border-bottom: 1px dotted #000;
+  margin-bottom: .5rem;
+}
+
+.page-hemaq .form-group label {
+  font-size: .9rem;
+  text-align: left;
+  display: block;
+}
+
+.page-hemaq .nav-link.active {
+  background: #004fb9;
+  color: #fff;
+}
+
+.page-content ul.navbar-nav  {
+    margin-left: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+}
+
+.page-content ul.navbar-nav li {
+  list-style: none;
+}
+
+.page-hemaq .form-control,
+.page-hemaq .input-group-text {
+  font-size: .8rem;
+}
+
+.page-hemaq .table {
+  font-size: .8rem;
+}
+
+.table-group {
+  overflow-x: auto;
+  width: 100%;
+}
+.table-group .table {
+    display: block;
+}
+
