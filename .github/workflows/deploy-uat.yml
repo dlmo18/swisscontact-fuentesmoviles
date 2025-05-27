@@ -21,6 +21,10 @@ jobs:
       - name: Deploy with rsync over SSH
         run: |
           rsync -avz --no-times --delete \
+            --exclude='.gitignore' \
+            --exclude='composer.json' \
+            --exclude='package.json' \
+            --exclude='bs-config.js' \            
             -e "ssh -o StrictHostKeyChecking=no" \
-            ./wp-content/themes/ \
-            ${{ secrets.GCLOUD_USER }}@${{ secrets.GCLOUD_HOST }}:/var/www/swisscontact-fuentesmoviles/wp-content/themes/
+            ./ \
+            ${{ secrets.GCLOUD_USER }}@${{ secrets.GCLOUD_HOST }}:/var/www/programacalac.com/  
