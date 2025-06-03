@@ -13,6 +13,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: List current directory
+        run: ls -la
+
       - name: Set up SSH key
         run: |
           mkdir -p ~/.ssh
@@ -22,12 +25,11 @@ jobs:
 
       - name: Deploy with rsync over SSH
         run: |
-           rsync -avz --no-times --delete \
+          rsync -avz --no-times --delete \
             --exclude='.gitignore' \
             --exclude='composer.json' \
             --exclude='package.json' \
-            --exclude='bs-config.js' \            
+            --exclude='bs-config.js' \
             -e "ssh -o StrictHostKeyChecking=no" \
-            ./ \
-            ${{ secrets.GCLOUD_USER }}@${{ secrets.GCLOUD_HOST }}:/var/www/swisscontact-fuentesmoviles/deploy/
-
+            "${{ github.workspace }}/" \
+            "${{ secrets.GCLOUD_USER }}@${{ secrets.GCLOUD_HOST }}:/var/www/swisscontact-fuentesmoviles/deploy/"
