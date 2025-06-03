@@ -29,4 +29,5 @@ jobs:
             --exclude='bs-config.js' \            
             -e "ssh -o StrictHostKeyChecking=no" \
             ./ \
-            ${{ secrets.GCLOUD_USER }}@${{ secrets.GCLOUD_HOST }}:/var/www/swisscontact-fuentesmoviles/  
+            ${{ secrets.GCLOUD_USER }}@${{ secrets.GCLOUD_HOST }}:/var/www/swisscontact-fuentesmoviles/deploy/
+
